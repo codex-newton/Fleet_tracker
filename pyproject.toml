@@ -1,0 +1,20 @@
+[project]
+name = "fleet_tracker"
+authors = [
+    { name = "Isaac Newton (codex-newton)", email = "mwanikinewton742@gmail.com"}
+]
+description = "An app to track and locate my couriers to ensure on time loads and also to assist in situations of lost couriers. "
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+dependencies = [
+    # "frappe~=15.0.0" # Installed and managed by bench.
+]
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+# These dependencies are only installed when developer mode is enabled
+[tool.bench.dev-dependencies]
+# package_name = "~=1.1.0"
