@@ -4,6 +4,11 @@ app_publisher = "Isaac Newton (codex-newton)"
 app_description = "An app to track and locate my couriers to ensure on time loads and also to assist in situations of lost couriers. "
 app_email = "mwanikinewton742@gmail.com"
 app_license = "mit"
+
+doctype= {
+    "Phone Number": "phone_number/phone_number.js"
+}
+
 # required_apps = []
 
 # Includes in <head>
